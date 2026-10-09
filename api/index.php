@@ -1,6 +1,8 @@
 <?php
 // api/index.php - Vercel Serverless Router
 
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
 // Pastikan direktori session writable
 $tempDir = sys_get_temp_dir();
 if (!empty($tempDir) && is_dir($tempDir)) {
