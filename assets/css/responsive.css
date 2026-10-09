@@ -1,0 +1,39 @@
+/* ==========================================
+   RESPONSIVE CSS
+   ========================================== */
+
+@media (max-width: 480px) {
+    .container {
+        padding: 14px 12px 10px;
+        border-radius: 16px;
+    }
+    
+    .hero-title {
+        font-size: 22px;
+    }
+    
+    .section-title {
+        font-size: 20px;
+    }
+    
+    .cta-content h2 {
+        font-size: 20px;
+    }
+    
+    .features-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+    
+    .feature-item {
+        padding: 16px 12px;
+    }
+    
+    .feature-item .feature-icon {
+        font-size: 24px;
+    }
+    
+    .feature-item h4 {
+        font-size: 13px;
+    }
+}

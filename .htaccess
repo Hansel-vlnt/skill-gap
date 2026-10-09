@@ -1,0 +1,8 @@
+# Protect sensitive files from direct browser download
+<FilesMatch "\.(sql|csv|pem)$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
+
+# Disable directory browsing
+Options -Indexes
